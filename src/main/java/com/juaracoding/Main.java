@@ -30,8 +30,6 @@ public class Main {
         btnPemasukan.click();
         System.out.println("--PEMASUKAN--");
         delay(3);
-//        MobileElement btnJumlah = (MobileElement) driver.findElementById("com.chad.financialrecord:id/ibCalc");
-//        btnJumlah.click();
         MobileElement btnJumlahPemasukan = (MobileElement) driver.findElementById("com.chad.financialrecord:id/etAmount");
         btnJumlahPemasukan.click();
         btnJumlahPemasukan.sendKeys("150,000");
@@ -63,16 +61,6 @@ public class Main {
         btnPengeluaran.click();
         System.out.println("--PENGELUARAN--");
         delay(3);
-//        MobileElement btnTanggal = (MobileElement) driver.findElementById("com.chad.financialrecord:id/tvDate");
-//        btnTanggal.click();
-//        System.out.println("Pilih Tanggal");
-//        MobileElement btnPickTanggal = (MobileElement) driver.findElementByXPath("//android.widget.TextView[@text='13 Agu 2023']");
-//        btnPickTanggal.click();
-//        System.out.println("Tanggal : "+btnPickTanggal.getText());
-//        delay(3);
-//        MobileElement btnJumlah = (MobileElement) driver.findElementById("com.chad.financialrecord:id/etAmount");
-//        btnJumlah.click();
-//        System.out.println("Input Jumlah");
         MobileElement btnJumlah = (MobileElement) driver.findElementById("com.chad.financialrecord:id/ibCalc");
         btnJumlah.click();
         delay(2);
